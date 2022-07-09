@@ -27,5 +27,5 @@
 
 ## Submission procedure
 1. Make sure your notebook has your roll number as its name i.e. your submission file should be `roll_num.ipynb`.
-1. Upload this file to the following Google Form.
+1. Upload this file to the following [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfBXZ4u77oyTvxujm1t6IYJYOYJfXerg3OppyuoLLK5IfoQpQ/viewform).
 1. Wait for your impending doom.
