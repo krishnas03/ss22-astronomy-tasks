@@ -21,8 +21,9 @@
 5. Extract the data from the primary HDU. For the first slice of this data, find the maximum and minimum pixel value along with the standard deviation of this data.
 6. Look into the arguments of the `pyplot` function `imshow`. Use the pixel values obtained above to limit the colour scaling of `imshow`. Use `cmap='gray'` while plotting the image. (Make the plot look nice by appropriately choosing the figure size and using labels.)
 7. 'Stack' every 5th slice (slice 5, 10, 15...) of the original data. This can be done by simply summing the slices (arrays) together. Plot this new dataset by repeating task 5 and 6. 
-8. Create a function that plots the 'Altitude' (AltAz coordinate system) of a celestial object over a time-window of 12 hours after a given time. Assume you are located at IITM (like I did during the session) and also that the object's coordinates are **RA 5h 35m 17s** & **Dec -5° 23′ 28″**. You should need only two arguments, the `coordinates` of the object and the desired `time` of observation. 
+8. Create a function that plots the 'Altitude' and 'Azimuth' (AltAz coordinate system) of a celestial object over a time-window of 12 hours after a given time. Assume you are located at IITM (like I did during the session) and also that the object's coordinates are **RA 5h 35m 17s** & **Dec -5° 23′ 28″**. You should need only two arguments, the `coordinates` of the object and the desired `time` of observation. 
 *Hint: The argument `obstime` for `AltAz()` can be an array!*
+9. Bonus points for finding out what the above object is.
 
 ## Submission procedure
 1. Make sure your notebook has your roll number as its name i.e. your submission file should be `roll_num.ipynb`.
